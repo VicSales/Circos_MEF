@@ -7,8 +7,10 @@ sessionInfo()
 library(GenomicRanges)
 
 options(stringsAsFactors = FALSE)
-source("https://bioconductor.org/biocLite.R")
-biocLite("OmicCircos")
+
+#intall the package if necessary
+#source("https://bioconductor.org/biocLite.R")
+#biocLite("OmicCircos")
 
 library(OmicCircos)
 
